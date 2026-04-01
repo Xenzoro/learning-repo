@@ -11,7 +11,7 @@ let messages = [
 ];
 
 // REPLACE with your actual Cloudflare Worker URL
-const workerUrl = 'https://wanderbot-worker.xxjacobmartinezxx.workers.dev/';
+const workerUrl = 'https://wanderbot-worker.xenzoro.workers.dev/';
 
 // Add event listener to the form
 chatForm.addEventListener('submit', async (event) => {

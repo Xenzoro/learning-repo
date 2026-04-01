@@ -1,0 +1,128 @@
+/* =====================================
+   LiveLab 10 – AI Recommendation Engine
+   Student Starter Styles
+   
+   These are BASIC styles to get you started.
+   Customize them to match YOUR concept!
+===================================== */
+
+/* Reset and Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav span {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Main Content Area */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+/* AI Interaction Card */
+.ai-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Input Field */
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Submit Button */
+button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Response Display Area */
+#response {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+  min-height: 60px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* =====================================
+   TODO: Customize these styles!
+   - Change colors to match your concept
+   - Add custom fonts
+   - Style the response area as chat bubbles
+   - Add animations or transitions
+   - Make it your own!
+===================================== */
